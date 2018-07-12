@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Parallel test suite" parallel="methods" thread-count="3" verbose="2">
+	<test name="Chrome Test">
+		<classes>
+			<class name="GridCode.ParallelBrowsers">
+			<methods>
+					<include name="testDriver1"  />
+					<include name="testDriver2" />
+					<include name="testDriver3" />
+					<include name="testDriver4" />
+					<include name="testDriver5" />
+					<include name="testDriver6" />
+					<include name="testDriver7" />
+					<include name="testDriver8" />
+					<include name="testDriver9" />
+					<include name="testDriver10" />
+					<include name="testDriver11" />
+					<include name="testDriver12" />
+					<include name="testDriver13" />
+					<include name="testDriver14" />
+					<include name="testDriver15" />
+					<include name="testDriver16" />
+					<include name="testDriver17" />
+					<include name="testDriver18" />
+					<include name="testDriver19" />
+					<include name="testDriver20" />
+			</methods>
+			</class>			
+		</classes>
+	</test>
+</suite>
